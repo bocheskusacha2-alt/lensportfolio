@@ -1,0 +1,324 @@
+body{
+	background:#F5F5F5;
+}
+
+.container{
+	background:#fff;
+	padding:40px;
+	border-radius:20px;
+}
+
+nav{
+	display:flex;
+	justify-content:space-between;
+	background:#fff;
+	padding:25px 40px 20px 40px;
+	margin-bottom:50px;
+}
+
+.logo{
+	color:#222222;
+	font-weight:700;
+	font-size:24px;
+}
+
+.logo span{
+	color:#999999;
+}
+
+nav a{
+	margin-right:20px;
+	text-decoration:none;
+	color:#222222;
+	font-weight:600;
+	font-size:18px;
+	
+	border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s;
+	padding-bottom:5px;
+}
+
+nav a:hover{
+	border-color: #222222;
+}
+
+
+main{
+	margin-bottom:100px;
+	display:flex;
+	justify-content:space-between;
+}
+
+
+h1{
+	font-size:40px;
+	font-weight:700;
+	color:#222222;
+	width:400px;
+	margin-bottom:20px;
+}
+
+main p{
+	font-size:15px;
+	color:#666666;
+}
+
+main > div > a{
+	text-decoration:none;
+	padding:15px 24px;
+	background:#000000;
+	color:#fff;
+	border-radius:15px;
+	display: inline-block;
+	
+	margin-top:50px;
+	
+	transition:transform .4s ease;
+}
+
+main > div > a:hover{
+	transform: scale(1.05);
+}
+
+
+
+
+header > p{
+	color:#444444;
+	margin-bottom:30px;
+	margin-top:20px;
+}
+
+.Achievement{
+	display:flex;
+	justify-content:space-between;
+	align-content:center;
+	
+	padding-top:20px;
+}
+
+.Achievement div{
+	padding:15px 0px 15px 0px;
+	width:22%;
+	background:#F5F5F5;
+	text-align:center;
+	
+	border-radius:15px;
+}
+
+.Achievement div:first-of-type{
+	border:1px solid #000000;
+}
+
+
+
+footer{
+	display:flex;
+	justify-content:space-between;
+	background:#fff;
+	padding:25px 40px 20px 40px;
+	margin-top:50px;
+	
+	align-items:center;
+}
+
+
+footer a{
+	margin-right:20px;
+	text-decoration:none;
+	color:#222222;
+	font-weight:600;
+	font-size:18px;
+	
+	border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s;
+	padding-bottom:5px;
+}
+
+footer a:hover{
+	border-color: #222222;
+}
+
+.connection{
+	text-decoration:none;
+	color:#000000;
+	padding:10px 15px;
+	border:1px solid #000000;
+	
+	display:inline-block;
+	transition:transform .4s ease;
+}
+
+.connection:hover{
+	transform: scale(1.05);
+}
+
+
+
+
+
+
+/* SERVICES */
+
+
+
+h2{
+	font-size:30px;
+	font-weight:700;
+	color:#222222;
+	margin-bottom:20px;
+}
+
+
+.row{
+	text-align:center;
+	justify-content:space-between;
+}
+
+.card{
+	background:#F5F5F5;
+	padding:18px;
+	border:none;
+}
+
+.card span{
+	color:#222222;
+	font-size:17px;
+	font-weight:700;
+	margin-bottom:12px;
+}
+
+.card h3{
+	color:#222222;
+	font-size:25px;
+	font-weight:700;
+	margin-bottom:10px;
+}
+
+.card p{
+	color:#222222;
+	border-bottom:1px solid #EEEEEE;
+}
+
+
+.card a{
+	text-decoration:none;
+	padding:15px 24px;
+	background:#000000;
+	color:#fff;
+	border-radius:15px;
+	display: inline-block;
+	
+	margin-top:50px;
+	
+	transition:transform .4s ease;
+}
+
+.card a:hover{
+	transform: scale(1.05);
+}
+
+
+/* CONTACTY */
+
+.main-content{
+	display:flex;
+	justify-content:space-between;
+}
+
+.left{
+	background:#F5F5F5;
+	padding:32px;
+	border-radius:16px;
+	
+	margin-right:20px;
+}
+
+.left-phone{
+	display:flex;
+	align-items:center;
+}
+
+.phone{
+	padding:15px;
+	background:#000000;
+	border-radius:50%;
+	margin-right:25px;
+}
+
+h4{
+	font-size:15px;
+	color:#222222;
+}
+
+.btn-contact{
+	margin-top:20px;
+}
+
+
+.btn-contact a{
+	margin-right:20px;
+	text-decoration:none;
+	color:#222222;
+	font-weight:600;
+	font-size:18px;
+	
+	border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s;
+	padding-bottom:5px;
+}
+
+.btn-contact a:hover{
+	border-color: #222222;
+}
+
+.left-carta{
+	color:#222222;
+	background:#DDDDDD;
+	padding:60px 100px;
+	
+	margin-top:20px;
+	
+	border-radius:16px;
+}
+
+
+
+.right{
+	border:1px solid #EEEEEE;
+	border-radius:16px;
+	padding:32px;
+}
+
+
+.form-group{
+	
+}
+
+
+
+
+
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+	
+	margin-bottom:20px;
+}
+
+.btn-submit{
+	text-decoration:none;
+	padding:10px 24px;
+	background:#000000;
+	color:#fff;
+	border-radius:10px;
+	display: inline-block;
+	
+	margin-top:30px;
+	
+	width:100%;
+}
